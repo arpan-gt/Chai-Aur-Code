@@ -66,3 +66,33 @@ for(let i =teas.length-1;i>=0;i--)
     reversedArray.push(teas[i]);
 }
 console.log(reversedArray)
+
+//todo use splice method
+
+const fruits=["Apple","Mango","Banana","WaterMelon","Muskmelon","lichi","pomegranate","guava","strawberry","papaya"];
+console.log('original : ',fruits);
+
+// => removing elements => return array of removed elements
+const removed=fruits.splice(4,3);
+console.log('Removed Items: ',removed);
+
+
+// * * adding elements at specific position
+fruits.splice(2,0,"Avacardo","cherry");
+console.log(fruits)
+
+
+// * * replacing element 
+fruits.splice(3,2,"sugarcane","lemon");
+console.log('replaced : ',fruits)
+
+
+//* * negative index
+fruits.splice(-2,2);   // meand from  2nd elementfrom end  delete 2 items
+console.log('negative index : ',fruits)
+
+
+
+// * * remove till end 
+fruits.splice(4);
+console.log('removed till end : ',fruits)
