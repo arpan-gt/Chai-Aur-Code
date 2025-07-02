@@ -16,3 +16,5 @@ if (!Array.prototype.myMap) {
 
 const newArr = arr.myMap((el) => el * 3);
 console.log(newArr);
+
+let 
