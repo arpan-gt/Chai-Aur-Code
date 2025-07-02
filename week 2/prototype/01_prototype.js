@@ -55,21 +55,3 @@ const filterArray=arr.myFilter((el) => el%3 == 0);
 console.log(filterArray);
 
 
-//todo ---------------------------------------------------------------------------------------------------
-
-
-//todo implement forEach prototype function
-
-// * * signature for forEach => iterates on each element , takes a userFunction 
-if(!Array.prototype.myForEach)
-{
-    Array.prototype.myForEach=function(userFunction)
-    {
-      for(let i=0;i<this.length;i++)
-        {
-          userFunction(this[i],i);
-        };
-    };
-};
-
-console.log();
