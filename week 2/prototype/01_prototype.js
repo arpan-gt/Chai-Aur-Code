@@ -19,4 +19,5 @@ if (!Array.prototype.myMap)
     };
 }
 const newArray=arr.myMap((el) => el * 3);
-console.log(newArray)
+console.log('map function prototype');
+console.log(newArray);
