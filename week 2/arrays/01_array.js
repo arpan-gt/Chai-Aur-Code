@@ -96,3 +96,34 @@ console.log('negative index : ',fruits)
 // * * remove till end 
 fruits.splice(4);
 console.log('removed till end : ',fruits)
+
+
+// todo -----------------------------------------------------------------------------------------------
+
+// * * Slice method 
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+const newArr=arr.slice();   // shallow copied
+console.log("Shallow Copy Slice () : ",newArr);
+
+
+// slice with some arguments
+
+const slicedArr=arr.slice(2);
+console.log("Sliced Array  slice(2) :",slicedArr);
+
+
+//
+ const sliceArr2=arr.slice(2,5);
+ console.log("slice(2,5) : ",sliceArr2);
+
+
+ //
+const sliceExample = arr.slice(-4, -2);
+console.log("slice(-4,-2) : ",sliceExample);
+
+
+//
+const slcArr=arr.slice(-4);
+console.log("slice(-4) : ",slcArr);
+
