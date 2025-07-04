@@ -16,3 +16,12 @@ console.log('replace("Aur","And") => ',channel.replace("Aur","And")); // replace
 
 //todo separate Code from ChaiAurCode and replace "e" with "ing";
 console.log('slice(7).replace("e","ing") => ',channel.slice(7).replace('e','ing'));
+
+
+//todo Write a program to check whether a string is blank or not 
+let str2="ILoveCoding";
+
+let isStringBlank=str2.trim().length === 0 ? "String is blank" :"String is not blank";
+console.log('isStringBlank => ',isStringBlank);
+
+
