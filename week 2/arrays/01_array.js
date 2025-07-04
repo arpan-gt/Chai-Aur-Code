@@ -142,3 +142,11 @@ for(let i = ar.length-1 ; i >= ar.length-m ; i--)
 {
   console.log(`last ${m} elements : ar[${i}] => ${ar[i]}`)
 }
+
+
+  //todo write a program to check whether an element exists in an array or not 
+  const arr2=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let isElementPresentInArray = arr2.includes(50);
+  console.log('isElementPresentInArray => ',isElementPresentInArray)
+
+  
