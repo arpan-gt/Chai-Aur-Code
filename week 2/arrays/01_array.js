@@ -127,3 +127,18 @@ console.log("slice(-4,-2) : ",sliceExample);
 const slcArr=arr.slice(-4);
 console.log("slice(-4) : ",slcArr);
 
+// todo Write a program to print first n elements of an array  . n can be any positive number
+let ar=[1,2,3,4,5,6,7,8,9];
+let n=4;
+for(let i =0;i<=n;i++)
+{
+  console.log(`get first ${n} elements : ar[${i}] => ${ar[i]}`)
+}
+
+
+//todo write a program to get last n elements of an array 
+let m=3;
+for(let i = ar.length-1 ; i >= ar.length-m ; i--)
+{
+  console.log(`last ${m} elements : ar[${i}] => ${ar[i]}`)
+}
