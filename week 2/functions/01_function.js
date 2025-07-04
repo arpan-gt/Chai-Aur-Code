@@ -46,3 +46,14 @@ let ischarAtLowerCase=function(str,index)
       return char >='a' && char <='z';
   }
   console.log(ischarAtLowerCase(str,3));
+
+
+//todo write a program to strip leading and trailing spaces from a string 
+  let stri="IamCoding  ";
+  let trimmedString=function(str)
+    {
+      let result=str.trim();
+      return `trimmed => "${result}"`;
+    }
+  
+    console.log(trimmedString(stri))
