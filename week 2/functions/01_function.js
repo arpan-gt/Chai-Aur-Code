@@ -68,7 +68,7 @@ let print_M_Even_Numbers = function (m, n) {
   }
   return result.toString();
 };
-console.log('print_M_Even_Numbers(5, 25) : ',print_M_Even_Numbers(5, 25));
+console.log("print_M_Even_Numbers(5, 25) : ", print_M_Even_Numbers(5, 25));
 
 //todo implement either odd function or even function above such that between the range give only limited numbers eg:between 5 to 30 give only first x numbers
 
@@ -84,4 +84,16 @@ let get_Counted_Even_Numbers = function (m, n, counts) {
   }
   return result.toString();
 };
-console.log('get_Counted_Even_Numbers(5, 30, 5) : ',get_Counted_Even_Numbers(5, 30, 5));
+console.log(
+  "get_Counted_Even_Numbers(5, 30, 5) : ",
+  get_Counted_Even_Numbers(5, 30, 5)
+);
+
+//todo function to print multiplication table
+
+let getMultiplicationTable = function (n) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${n} * ${i} = ${n * i}`);
+  }
+};
+getMultiplicationTable(5);
