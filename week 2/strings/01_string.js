@@ -7,8 +7,12 @@ let trimmedUpper=str.trim().toUpperCase();
 console.log(`"   iLoveCoding   " => ${trimmedUpper}`);
 
 //todo use slice,indexOf,replace for the following
-let channel="ChaiAurCodeAur"
+let channel="ChaiAurCode"
 
 console.log('slice(4,9) => ',channel.slice(4,9));    // AurCo 
 console.log('indexOf("o") => ',channel.indexOf("o")); // 8 gives first occurance of o
-console.log('replace("Aur,"And) => ',channel.replace("Aur","And")); // replace first occurance of Aur to And
+console.log('replace("Aur","And") => ',channel.replace("Aur","And")); // replace first occurance of Aur to And
+
+
+//todo separate Code from ChaiAurCode and replace "e" with "ing";
+console.log('slice(7).replace("e","ing") => ',channel.slice(7).replace('e','ing'));
